@@ -1,95 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>FEW Assessment</title>
-        <link rel="stylesheet" href="style.css">
-	</head>
-	<body>
-		<div class="row">
-			<div class="column">
-				<div class="content">
-					<h1>Meklit Cherie</h1>
-					<p>FEW Assessment</p>
-				</div>
-			</div>
-			<div class="column">
-				<form id="user-input">
-					<label>Width:</label>
-					<input type="number" id="box-width" value="100" />
-					<label>Height:</label>
-					<input type="number" id="box-height" value="100" />
-					<label>Color:</label>
-					<input type="color" id="box-color" value="#e66465" />
+		<meta charset = "UF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>Meklit Cherie</title>
+		<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="container">
+		<div class="column">
+			<section id= "student-info" class="box">
+				<h1>Meklit Cherie</h1>
+				<p>My favorite color is blue and I wear Nike</p>
+			</section>
+			<section id="data-input" class="box">
+				<h1>Font styler</h1>
+				<form>
+					<label>Font Size</label>
+					<input id="input-size" type="number"/>
+					<label>Font Family</label>
+					<select id="select-font">
+						<option value="Helvetic" selected>Helvetic</option>
+						<option value="Arial">Arial</option>
+						<option value="Times New Roman">Times New Roman</option>
+						<option value="Georgia">Georgia</option>
+					</select>
+					<label>Font Color</label>
+					<input id="input-color" type="color" value="#000"/><br>
+					<label>Background color</label>
+					<input id="input-bg-color" type="color" value="#fff"/><br>
+					<label>Enter Text</label>
+					<textarea id="enter-text">This is mek</textarea>
 				</form>
-			</div>
+			</section>
 		</div>
-		<div class="row">
-			<div class="column">
-				<div id="display-info"></div>
-			</div>
-			<div class="column">
-				<div id="draw-info"></div>
-			</div>
-		</div>
+		<div class="column">
+			<section id="headline-display" class="box">
+			<h1>This is mek</h1>
+		</section>
+			<section id="data-output"></section>
 
-		<script src="script.js" async></script>
-	</body>
+			<section id="data-output" class= "box">
+				<h1>Font setting</h1>
+	<pre><code>
+	.headline {
+
+	font-size: <span id="show-size">4</span>px;
+	font-family: <span id="show-font">Arial</span>;
+	color: <span id="show-color">#000</span>;
+	background-color: <span id="show-bg-color">#fff</span>;
+	}
+		</code></pre>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
 </html>
 
 
-
-
-
-
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">
-    <title>web deveoper</title>
-</head>
-<body>
-    <article>
-    <section id="q1" class="box">
-        <h2>Meklit Cherie</h2>
-        <h1>Few Assessment</h1> 
-        </div>
-    </section>
-
-    <section id="q2" class="box">
-    <form>
-        <label for="width">width:</label><br>
-        <input type="number" id="width" name="width" value=""><br>
-        <label for="height">height:</label><br>
-        <input type="number" id="height" name="height" value=""><br>
-        <label for="favcolor "> color:</label>
-        <input type="color" id="favcolor" name="favcolor" value="#fff000">
-    </form>
-    </section>
-
-    <section id="q3" class="box">
-        <h1>width</h1>
-        <h1>height</h1>
-        <h1>color</h1>
-    </section>
-
-    <section id="q4" class="box">
-        <h1>Color</h1>
-        <input type="color" id="favcolor" name="favcolor" value="#fff000">
-    </section>
-</article>
-<script src="script.js" async></script>
-</body>
-
-</html> -->
-
-
-
-
-
-
-
-
-      
