@@ -1,36 +1,26 @@
- body { 
-    background-color: white;
+body {
     font-family: Arial, Helvetica, sans-serif;
- }
-
-#container {
-    margin: 2px;
+    color: black;
+    background-color: burlywood;
+}
+main{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    border: burlywood;
+    
 }
-.box {
-    color: burlywood;
-} 
-#student-info {
-    padding: 2em;
-}
-#data-input {
 
-    margin: 100px 30px;
-    border: 1px solid black;
-    width: 300px;
-	height: 300px;
-	margin: 10px;
+.input{
+    margin: 0px 16px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 50px;
+    
 }
-#headline-display {
-    line-height: 40px;
-    width: 150px;
-	height: 150px;
-    /* margin: 10px; */
-    border:1px solid;
-}
-#data-output {
-    padding: 0.5em;
-    margin: 0 2em 0 0;
+
+#display, #total{
+    font-size: 19px;
+    font-weight: bold;
+
 }
